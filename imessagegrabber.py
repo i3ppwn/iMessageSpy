@@ -24,7 +24,8 @@ import os
 import random
 import sys
 
-spyip = "192.168.178.28" #The ip adress from your iDevice
+spyip = raw_input('Please enter wanted ip')
+
 
 def send_pdu_ad(linead, ip):
         leng = (len(linead) / 2) - 8
